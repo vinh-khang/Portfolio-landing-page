@@ -292,9 +292,16 @@ article.active {
   z-index: -1;
 }
 
+.text-center{
+  text-align: center;
+}
 
 
-
+.fb-name{
+  font-weight: 700;
+  color: rgb(126, 160, 255);
+  font-size: 18px;
+}
 
 /*-----------------------------------*\
   #MAIN
@@ -752,6 +759,7 @@ main {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
+  border-radius: 10px !important;
 }
 
 .clients-item img:hover { filter: grayscale(0); }
@@ -1427,7 +1435,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { width: 80px; padding: 20%;}
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1476,7 +1484,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .clients-list {
     gap: 50px;
     margin: 0 -30px;
-    padding: 45px;
+    padding: 25px;
     scroll-padding-inline: 45px;
   }
 
@@ -1878,5 +1886,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  
 
 }
